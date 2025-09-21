@@ -40,8 +40,9 @@
       --accent-2: #22c55e; /* green */
       --card: #f8fafc;
     }
+    *, *::before, *::after { box-sizing: border-box; }
     /* Minimal, inline CSS for speed */
-    html, body { height: 100%; }
+    html, body { height: 100%; overflow-x: hidden; }
     body {
       margin: 0;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji";
@@ -49,10 +50,13 @@
       place-items: center;
       background: radial-gradient(1200px 600px at 50% -10%, rgba(37,99,235,.08), transparent 60%), var(--bg);
       color: var(--fg);
+      overflow-x: hidden;
     }
     header {
-      width: min(92vw, 1000px);
+      width: 100%;
+      max-width: 1000px;
       margin-top: 18px;
+      padding: 0 16px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -70,8 +74,9 @@
       opacity: .9;
     }
     main {
-      width: min(92vw, 1000px);
-      padding: 10px 24px 22px;
+      width: 100%;
+      max-width: 1000px;
+      padding: 10px 0 22px;
       text-align: center;
     }
     h1 {
@@ -83,20 +88,24 @@
     .card {
       display: grid;
       gap: 18px;
-      padding: 18px;
+      padding: 16px;
+      margin: 0 auto;
       border-radius: 16px;
       background: linear-gradient(180deg, #ffffff, #fbfdff);
       border: 1px solid #e9eef5;
       box-shadow: 0 10px 40px rgba(2,6,23,.08), 0 2px 8px rgba(2,6,23,.06);
       align-items: center;
+      width: 100%;
+      max-width: 360px;
+      box-sizing: border-box;
     }
     .copy { text-align: left; margin-inline: auto; max-width: 520px; }
-    .visual { display: flex; justify-content: center; }
-    .shots { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; padding-bottom: 6px; }
+    .visual { display: flex; justify-content: center; width: 100%; }
+    .shots { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; padding-bottom: 6px; width: 100%; }
     .shots figure { margin: 0; scroll-snap-align: center; flex: 0 0 auto; }
-    .shots img { display: block; width: min(86vw, 210px); height: auto; border-radius: 12px; box-shadow: 0 6px 28px rgba(0,0,0,.12); background: #f7f7f7; }
+    .shots img { display: block; width: min(40vw, 180px); max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 6px 28px rgba(0,0,0,.12); background: #f7f7f7; }
     @media (min-width: 980px) {
-      .card { grid-template-columns: 1.05fr 1.2fr; padding: 20px; }
+      .card { grid-template-columns: 1.05fr 1.2fr; padding: 20px; max-width: 1000px; }
       .copy { text-align: left; margin: 0; }
       .visual { justify-content: flex-end; }
       .shots { display: grid; grid-template-columns: 1fr 1fr; overflow: visible; }
@@ -115,7 +124,7 @@
     .cta:active { transform: none; box-shadow: none; }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
     /* FAQ */
-    .faq { width: min(92vw, 1000px); margin: 30px auto 10px; text-align: left; }
+    .faq { width: 100%; max-width: 1000px; margin: 30px auto 10px; padding: 0 16px; text-align: left; }
     .faq h2 { font-size: 1.4rem; margin: 0 0 8px; }
     .faq details { background: #ffffff; border: 1px solid #e9eef5; border-left: 4px solid var(--accent); border-radius: 10px; padding: 10px 12px; margin: 10px 0; box-shadow: 0 4px 16px rgba(2,6,23,.04); }
     .faq summary { cursor: pointer; font-weight: 700; list-style: none; }
@@ -135,6 +144,100 @@
     "image": "Screenshot%202025-09-20%20at%205.04.59%E2%80%AFPM.png",
     "publisher": { "@type": "Organization", "name": "Yuca Apps" }
   }
+  </script>
+  
+  <script>
+    // Debug script to find horizontal overflow sources
+    window.addEventListener('DOMContentLoaded', function() {
+      console.log('=== HORIZONTAL OVERFLOW DEBUG ===');
+      console.log('Viewport width:', window.innerWidth);
+      console.log('Document width:', document.documentElement.scrollWidth);
+      console.log('Body width:', document.body.scrollWidth);
+      console.log('HTML scrollWidth:', document.documentElement.scrollWidth);
+      
+      // Check each major element with more detail
+      const elements = [
+        'html',
+        'body',
+        'header',
+        'header > div:first-child',
+        'header > nav',
+        '.accent-bar',
+        'main', 
+        '.card',
+        '.copy',
+        '.visual',
+        '.shots',
+        '.faq',
+        '.faq details'
+      ];
+      
+      elements.forEach(selector => {
+        const el = document.querySelector(selector);
+        if (el) {
+          const rect = el.getBoundingClientRect();
+          const computedStyle = window.getComputedStyle(el);
+          console.log(`${selector}:`, {
+            tagName: el.tagName,
+            className: el.className,
+            width: rect.width,
+            offsetWidth: el.offsetWidth,
+            scrollWidth: el.scrollWidth,
+            marginLeft: computedStyle.marginLeft,
+            marginRight: computedStyle.marginRight,
+            paddingLeft: computedStyle.paddingLeft,
+            paddingRight: computedStyle.paddingRight,
+            borderLeft: computedStyle.borderLeftWidth,
+            borderRight: computedStyle.borderRightWidth,
+            left: rect.left,
+            right: rect.right,
+            overflow: rect.right - window.innerWidth
+          });
+        } else {
+          console.log(`${selector}: NOT FOUND`);
+        }
+      });
+      
+      // Check all images with more detail
+      document.querySelectorAll('img').forEach((img, index) => {
+        const rect = img.getBoundingClientRect();
+        const computedStyle = window.getComputedStyle(img);
+        console.log(`Image ${index} (${img.src.split('/').pop()}):`, {
+          width: rect.width,
+          offsetWidth: img.offsetWidth,
+          marginLeft: computedStyle.marginLeft,
+          marginRight: computedStyle.marginRight,
+          left: rect.left,
+          right: rect.right,
+          overflow: rect.right - window.innerWidth
+        });
+      });
+      
+      // Find ALL elements that extend beyond viewport
+      const allElements = document.querySelectorAll('*');
+      const overflowElements = [];
+      allElements.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.right > window.innerWidth) {
+          overflowElements.push({
+            element: el.tagName.toLowerCase() + (el.className ? '.' + el.className.replace(/ /g, '.') : '') + (el.id ? '#' + el.id : ''),
+            right: rect.right,
+            width: rect.width,
+            left: rect.left,
+            overflow: rect.right - window.innerWidth
+          });
+        }
+      });
+      
+      console.log('TOTAL OVERFLOW ELEMENTS:', overflowElements.length);
+      if (overflowElements.length > 0) {
+        console.log('ALL ELEMENTS CAUSING OVERFLOW:');
+        overflowElements.sort((a, b) => b.overflow - a.overflow);
+        overflowElements.forEach(item => console.log(item));
+      } else {
+        console.log('✅ No elements found extending beyond viewport');
+      }
+    });
   </script>
 </head>
 <body>
