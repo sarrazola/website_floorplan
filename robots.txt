@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Sitemap: https://floorplanto3dapp.com/sitemap.xml
+Sitemap: https://www.floorplanto3dapp.com/sitemap.xml
 
 
