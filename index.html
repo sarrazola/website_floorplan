@@ -6,18 +6,40 @@
   <title>Floor Plan to 3D — Turn black-and-white 2D plans into 3D</title>
   <meta name="description" content="Turn black-and-white 2D floor plans into 3D with a simple iOS app. Upload a plan and instantly get a clean 3D render.">
   <meta name="robots" content="index,follow">
-  <link rel="preload" as="image" href="Screenshot%202025-09-20%20at%205.04.59%E2%80%AFPM.png" fetchpriority="high">
+  <link rel="canonical" href="https://floorplanto3dapp.com/">
+  <link rel="preload" as="image" href="screen-compare.png" fetchpriority="high">
+  <link rel="preload" as="image" href="screen-styles.png">
+  <link rel="icon" href="152.png">
+  <link rel="apple-touch-icon" href="152.png">
 
   <!-- Open Graph / Twitter SEO -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Floor Plan to 3D — Turn 2D plans into 3D">
   <meta property="og:description" content="Turn black-and-white 2D floor plans into 3D with a simple iOS app.">
-  <meta property="og:image" content="Screenshot%202025-09-20%20at%205.04.59%E2%80%AFPM.png">
+  <meta property="og:image" content="screen-compare.png">
   <meta property="og:image:alt" content="Comparison: a black-and-white 2D plan above a full-color 3D render.">
+  <meta property="og:url" content="https://floorplanto3dapp.com/">
   <meta name="twitter:card" content="summary_large_image">
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL7QHS2Q7N"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} // eslint-disable-line no-unused-vars
+    gtag('js', new Date());
+    gtag('config', 'G-XL7QHS2Q7N');
+  </script>
 
   <style>
-    :root { color-scheme: light dark; }
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --fg: #0b1020;
+      --muted: #5b647a;
+      --accent: #2563eb; /* blue */
+      --accent-2: #22c55e; /* green */
+      --card: #f8fafc;
+    }
     /* Minimal, inline CSS for speed */
     html, body { height: 100%; }
     body {
@@ -25,42 +47,80 @@
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji";
       display: grid;
       place-items: center;
-      background: #ffffff;
-      color: #111111;
+      background: radial-gradient(1200px 600px at 50% -10%, rgba(37,99,235,.08), transparent 60%), var(--bg);
+      color: var(--fg);
+    }
+    header {
+      width: min(92vw, 1000px);
+      margin-top: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .logo {
+      width: 36px; height: 36px; border-radius: 9px; box-shadow: 0 6px 20px rgba(37,99,235,.25);
+    }
+    .brand { font-weight: 800; letter-spacing: -0.02em; }
+    .header-link { color: var(--fg); text-decoration: none; font-weight: 700; }
+    .header-link:hover { color: var(--accent); text-decoration: underline; }
+    .accent-bar {
+      height: 3px; width: 100%; margin: 10px auto 0; border-radius: 999px;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      opacity: .9;
     }
     main {
       width: min(92vw, 1000px);
-      padding: 24px;
+      padding: 10px 24px 22px;
       text-align: center;
     }
     h1 {
       font-size: 1.9rem;
-      line-height: 1.25;
-      margin: 0 0 12px;
+      line-height: 1.2;
+      margin: 8px 0 6px;
     }
-    p.tagline { margin: 0 0 20px; font-size: 1.15rem; }
-    img.hero {
-      display: block;
-      width: 100%;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 6px 28px rgba(0,0,0,.12);
-      background: #f7f7f7;
+    p.tagline { margin: 0 0 14px; font-size: 1.06rem; color: var(--muted); }
+    .card {
+      display: grid;
+      gap: 18px;
+      padding: 18px;
+      border-radius: 16px;
+      background: linear-gradient(180deg, #ffffff, #fbfdff);
+      border: 1px solid #e9eef5;
+      box-shadow: 0 10px 40px rgba(2,6,23,.08), 0 2px 8px rgba(2,6,23,.06);
+      align-items: center;
     }
-    a.cta {
+    .copy { text-align: left; margin-inline: auto; max-width: 520px; }
+    .visual { display: flex; justify-content: center; }
+    .shots { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; padding-bottom: 6px; }
+    .shots figure { margin: 0; scroll-snap-align: center; flex: 0 0 auto; }
+    .shots img { display: block; width: min(86vw, 210px); height: auto; border-radius: 12px; box-shadow: 0 6px 28px rgba(0,0,0,.12); background: #f7f7f7; }
+    @media (min-width: 980px) {
+      .card { grid-template-columns: 1.05fr 1.2fr; padding: 20px; }
+      .copy { text-align: left; margin: 0; }
+      .visual { justify-content: flex-end; }
+      .shots { display: grid; grid-template-columns: 1fr 1fr; overflow: visible; }
+      .shots img { width: min(15vw, 220px); }
+    }
+    .cta {
       display: inline-block;
-      margin-top: 20px;
-      padding: 14px 20px;
-      font-weight: 700;
-      color: #ffffff;
-      background: #0f172a;
-      border-radius: 999px;
+      margin-top: 4px;
+      padding: 0;
+      background: transparent;
+      border-radius: 0;
       text-decoration: none;
-      transition: transform .06s ease-in-out, box-shadow .06s ease-in-out;
+      box-shadow: none;
     }
-    a.cta:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(15,23,42,.22); }
-    a.cta:active { transform: translateY(0); box-shadow: none; }
+    .cta:hover { transform: none; box-shadow: none; }
+    .cta:active { transform: none; box-shadow: none; }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+    /* FAQ */
+    .faq { width: min(92vw, 1000px); margin: 30px auto 10px; text-align: left; }
+    .faq h2 { font-size: 1.4rem; margin: 0 0 8px; }
+    .faq details { background: #ffffff; border: 1px solid #e9eef5; border-left: 4px solid var(--accent); border-radius: 10px; padding: 10px 12px; margin: 10px 0; box-shadow: 0 4px 16px rgba(2,6,23,.04); }
+    .faq summary { cursor: pointer; font-weight: 700; list-style: none; }
+    .faq summary::-webkit-details-marker { display: none; }
+    .faq p { margin: 8px 2px 0; color: var(--muted); }
   </style>
 
   <script type="application/ld+json">
@@ -78,28 +138,106 @@
   </script>
 </head>
 <body>
+  <header>
+    <div style="display:flex; align-items:center; gap:12px;">
+      <img class="logo" src="152.png" alt="Floor Plan to 3D app icon" loading="eager" decoding="async" width="72" height="72">
+      <div class="brand">Floor Plan to 3D</div>
+    </div>
+    <nav><a class="header-link" href="https://blog.floorplanto3dapp.com" target="_blank" rel="noopener noreferrer">Blog</a></nav>
+  </header>
+  <div class="accent-bar" aria-hidden="true"></div>
   <main>
-    <h1>Floor Plan to 3D</h1>
-    <p class="tagline">Turn black and white 2D plans into 3D with a simple iOS app.</p>
-
-    <img
-      class="hero"
-      src="Screenshot%202025-09-20%20at%205.04.59%E2%80%AFPM.png"
-      alt="Side-by-side comparison of a black-and-white 2D floor plan and its AI-generated 3D render from the Floor Plan to 3D app."
-      loading="eager"
-      decoding="async"
-      fetchpriority="high"
-    >
-
-    <a
-      class="cta"
-      href="https://apps.apple.com/co/app/floor-plan-to-3d-blueprint/id6751739187?l=en-GB&utm_source=website&utm_medium=landing&utm_campaign=seo&utm_content=hero-button"
-      rel="noopener"
-      aria-label="Download Floor Plan to 3D on the App Store"
-    >Download now</a>
-
+    <section class="card">
+      <div class="copy">
+        <h1>Turn black and white 2D plans into 3D</h1>
+        <p class="tagline">A simple iOS app that converts your plan into a clean 3D render.</p>
+        <a
+          class="cta"
+          href="https://apps.apple.com/co/app/floor-plan-to-3d-blueprint/id6751739187?l=en-GB&utm_source=website&utm_medium=landing&utm_campaign=seo&utm_content=hero-button"
+          rel="noopener"
+          id="download-cta"
+          onclick="gtag('event','click',{event_category:'cta',event_label:'hero-button'});"
+          aria-label="Download Floor Plan to 3D on the App Store"
+        ><img src="downloadnowappstore.png" alt="Download on the App Store" width="180" height="60" style="height:auto; width:180px; display:block;"></a>
+      </div>
+      <div class="visual">
+        <div class="shots" role="region" aria-label="App screenshots">
+          <figure>
+            <img src="screen-compare.png" alt="Compare: 2D floor plan to 3D render inside the app UI" loading="eager" decoding="async" fetchpriority="high" sizes="(min-width:980px) 15vw, 86vw">
+          </figure>
+          <figure>
+            <img src="screen-styles.png" alt="Customize render styles like Standard, Mediterranean, Loft in the app" loading="lazy" decoding="async" sizes="(min-width:980px) 15vw, 86vw">
+          </figure>
+        </div>
+      </div>
+    </section>
     <span class="sr-only">App Store listing: Floor Plan to 3D — AI Home Design, Room Planner.</span>
   </main>
+  <section class="faq" aria-labelledby="faq-title">
+    <h2 id="faq-title">FAQ</h2>
+    <details open>
+      <summary>What is Floor Plan to 3D?</summary>
+      <p>It is a simple iOS app that turns any black‑and‑white floor plan or blueprint into a clean 3D render. Upload a photo or scan and the AI keeps your layout true to the original floorplan.</p>
+    </details>
+    <details open>
+      <summary>Is it useful for room planner or home planner tasks?</summary>
+      <p>Yes. Many people use it as part of their room planner and home planner workflow to preview house design ideas, rearrange layout options, and share a quick design home concept with clients.</p>
+    </details>
+    <details open>
+      <summary>What does the AI preserve from my plan?</summary>
+      <p>The app reads labels and dimensions and preserves counts, positions, and proportions—so the 3D result reflects your original plan and layout instead of inventing a new one.</p>
+    </details>
+    <details open>
+      <summary>Does it support AI home design and AI room previews?</summary>
+      <p>Yes. The render is AI‑assisted for speed and clarity. It’s great for AI home design explorations and fast AI room previews without manual 3D modeling.</p>
+    </details>
+    <details open>
+      <summary>Can I export or share the 3D render?</summary>
+      <p>You can export high‑resolution images of the 3D render to include in proposals, building or renovation planning, and presentations.</p>
+    </details>
+    <details open>
+      <summary>Which files or plans work best?</summary>
+      <p>Black‑and‑white plans work best: floor plan PDFs, blueprint scans, or clear photos. The app is ideal when you want a quick 3D view of a plan or floor plan before modeling.</p>
+    </details>
+  </section>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Floor Plan to 3D?",
+        "acceptedAnswer": {"@type": "Answer", "text": "It is a simple iOS app that turns any black-and-white floor plan or blueprint into a clean 3D render."}
+      },
+      {
+        "@type": "Question",
+        "name": "Is it useful for room planner or home planner tasks?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes. Many people use it as part of their room planner and home planner workflow to preview house design ideas and layout options."}
+      },
+      {
+        "@type": "Question",
+        "name": "What does the AI preserve from my plan?",
+        "acceptedAnswer": {"@type": "Answer", "text": "The app preserves counts, positions, proportions, and reads labels and dimensions so the 3D result reflects your original plan and layout."}
+      },
+      {
+        "@type": "Question",
+        "name": "Does it support AI home design and AI room previews?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes. The render is AI-assisted and great for AI home design explorations and fast AI room previews without manual 3D modeling."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can I export or share the 3D render?",
+        "acceptedAnswer": {"@type": "Answer", "text": "You can export high-resolution 3D renders for proposals, building or renovation planning, and presentations."}
+      },
+      {
+        "@type": "Question",
+        "name": "Which files or plans work best?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Black-and-white plans work best: floor plan PDFs, blueprint scans, or clear photos of your floorplan."}
+      }
+    ]
+  }
+  </script>
 </body>
 </html>
 
