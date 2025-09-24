@@ -30,6 +30,26 @@
     gtag('config', 'G-XL7QHS2Q7N');
   </script>
 
+  <!-- Google tag (gtag.js) event - delayed navigation helper -->
+  <script>
+    // Helper function to delay opening a URL until a gtag event is sent.
+    // Call it in response to an action that should navigate to a URL.
+    function gtagSendEvent(url) {
+      var callback = function () {
+        if (typeof url === 'string') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'sign_up', {
+        'event_callback': callback,
+        'event_timeout': 2000,
+        event_category: 'cta',
+        event_label: 'hero-button'
+      });
+      return false;
+    }
+  </script>
+
   <style>
     :root {
       color-scheme: light dark;
@@ -259,7 +279,7 @@
           href="https://apps.apple.com/app/apple-store/id6751739187?pt=127824014&ct=web&mt=8"
           rel="noopener"
           id="download-cta"
-          onclick="gtag('event','click',{event_category:'cta',event_label:'hero-button'});"
+          onclick="return gtagSendEvent(this.href);"
           aria-label="Download Floor Plan to 3D on the App Store"
         ><img src="download.webp" alt="Download on the App Store" width="180" height="60" style="height:auto; width:180px; display:block;" loading="lazy" decoding="async"></a>
       </div>
