@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/app",
+      "destination": "https://floorplan.onelink.me/KuAF/3f0q66fm",
+      "permanent": false
+    },
+    {
+      "source": "/download",
+      "destination": "https://floorplan.onelink.me/KuAF/u9aueeeh",
+      "permanent": false
+    }
+  ]
+}
