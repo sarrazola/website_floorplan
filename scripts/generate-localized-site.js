@@ -1342,6 +1342,7 @@ function robotsTxt() {
   return `User-agent: *
 Allow: /
 Sitemap: ${site.domain}/sitemap.xml
+Sitemap: ${site.blogUrl}/sitemap.xml
 `;
 }
 
