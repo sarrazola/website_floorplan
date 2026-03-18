@@ -1358,7 +1358,7 @@ function run() {
     writeFile(filePath, pageHtml(locale));
   });
 
-  writeFile('sitemap.xml', sitemapXml());
+  writeFile('data/sitemap.xml', sitemapXml());
   writeFile('robots.txt', robotsTxt());
 }
 
