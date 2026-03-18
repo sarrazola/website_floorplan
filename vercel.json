@@ -1,6 +1,17 @@
 {
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.floorplanto3dapp.com"
+        }
+      ],
+      "destination": "https://floorplanto3dapp.com/:path*",
+      "permanent": true
+    },
+    {
       "source": "/app",
       "destination": "https://floorplan.onelink.me/KuAF/3f0q66fm",
       "permanent": false
