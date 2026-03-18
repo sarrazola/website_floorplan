@@ -2,12 +2,12 @@ const fs = require('fs');
 const path = require('path');
 
 const site = {
-  domain: 'https://floorplanto3dapp.com',
+  domain: 'https://www.floorplanto3dapp.com',
   blogUrl: 'https://blog.floorplanto3dapp.com',
   ctaUrl: 'https://floorplan.onelink.me/KuAF/8u8ynpwj',
   appStoreListingUrl:
     'https://apps.apple.com/us/app/ai-home-planner-room-design/id6751739187',
-  ogImage: 'https://floorplanto3dapp.com/screen-compare.webp',
+  ogImage: 'https://www.floorplanto3dapp.com/screen-compare.webp',
   lastmod: '2026-03-17',
   analytics: {
     posthogKey: 'phc_8L4V3GZ5IBfP9TWrhh1U7UDVf5ySxHagitOSRIHvXkF',
