@@ -4,7 +4,7 @@ const path = require('path');
 const site = {
   domain: 'https://www.floorplanto3dapp.com',
   blogUrl: 'https://blog.floorplanto3dapp.com',
-  ctaUrl: 'https://floorplan.onelink.me/KuAF/8u8ynpwj',
+  ctaUrl: 'https://apps.apple.com/app/apple-store/id6751739187?pt=127824014&ct=floorplan_website_button&mt=8',
   appStoreListingUrl:
     'https://apps.apple.com/us/app/ai-home-planner-room-design/id6751739187',
   ogImage: 'https://www.floorplanto3dapp.com/screen-compare.webp',

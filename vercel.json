@@ -19,12 +19,12 @@
   "redirects": [
     {
       "source": "/app",
-      "destination": "https://floorplan.onelink.me/KuAF/3f0q66fm",
+      "destination": "https://apps.apple.com/app/apple-store/id6751739187?pt=127824014&ct=floorplan_website_button&mt=8",
       "permanent": false
     },
     {
       "source": "/download",
-      "destination": "https://floorplan.onelink.me/KuAF/u9aueeeh",
+      "destination": "https://apps.apple.com/app/apple-store/id6751739187?pt=127824014&ct=floorplan_website_button&mt=8",
       "permanent": false
     }
   ]
