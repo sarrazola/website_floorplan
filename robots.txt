@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://www.floorplanto3dapp.com/sitemap.xml
-Sitemap: https://blog.floorplanto3dapp.com/sitemap.xml
