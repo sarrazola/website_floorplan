@@ -39,5 +39,6 @@
       "destination": "https://apps.apple.com/app/apple-store/id6751739187?pt=127824014&ct=floorplan_website_button&mt=8",
       "permanent": false
     }
-  ]
+  ],
+  "buildCommand": "node scripts/check-static-images.mjs"
 }
