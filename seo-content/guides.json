@@ -1,0 +1,368 @@
+{
+  "en/floor-plan-to-3d": {
+    "title": "How to turn a 2D floor plan into a useful 3D visualization",
+    "description": "Prepare a readable floor plan, choose a view and verify rooms, doors and proportions in an AI-generated 3D concept before sharing it.",
+    "answer": "Upload a clear 2D plan to AI Home Planner & Room Design, choose a view and generate a visual concept. Compare the result against the source plan before using it in a presentation. An attractive image is not a measured CAD model.",
+    "steps": [
+      [
+        "Prepare the complete plan",
+        "Use a scan, screenshot or photo with legible walls, doors and room labels. Straighten a tilted photo and keep the full outline visible. Retain dimensions in the source when available; do not crop away the scale or a room entrance."
+      ],
+      [
+        "Choose a view that answers your question",
+        "A top-down view makes room relationships easier to compare. An angled or isometric view can communicate volume and furnishing ideas. Start with a neutral style so decoration does not distract you from checking the layout."
+      ],
+      [
+        "Check the generated layout against the source",
+        "Count rooms, locate doors and windows, and compare the relative sizes of adjacent spaces. Review circulation routes and stair positions. Reject a variation that changes a structural element or hides an inconsistency, even if it looks polished."
+      ],
+      [
+        "Export a clearly labeled concept",
+        "Compare variations, keep the one that best reflects the plan, and export an image for discussion. Share the original plan alongside it and label the render as an AI-generated visualization."
+      ]
+    ],
+    "example_title": "Example: a two-bedroom apartment",
+    "example": "Before choosing finishes, confirm that both bedrooms remain in the correct positions, the bathroom connects to the intended hallway and the kitchen has not absorbed part of another room. Only then compare furniture and color options.",
+    "limits": "AI can misinterpret a source or change details. Verify dimensions independently; an exported image is not a construction drawing, editable BIM file or engineering approval. Check the current App Store listing for subscription requirements.",
+    "related": [
+      "ai-room-design",
+      "virtual-home-staging",
+      "renovation-visualizer"
+    ],
+    "labels": {
+      "home": "Home",
+      "guides": "Practical guides",
+      "answer": "The short answer",
+      "steps": "Step by step",
+      "limits": "What this method does not establish",
+      "related": "Related guides",
+      "all": "Browse all guides",
+      "download": "Download on the App Store",
+      "cta": "Try it in the app",
+      "caption": "Product screenshot from the App Store listing; interface text may differ by language and version."
+    },
+    "updated": "2026-09-17",
+    "image": "/seo-assets/en/screenshot-3.jpg",
+    "image_alt": "AI Home Planner showing interior style options",
+    "image_caption": "Product screenshot from the App Store listing; interface text may differ by language and version.",
+    "related_titles": [
+      [
+        "ai-room-design",
+        "How to redesign a room with AI while keeping real constraints"
+      ],
+      [
+        "virtual-home-staging",
+        "How to virtually stage an empty room"
+      ],
+      [
+        "renovation-visualizer",
+        "How to visualize a renovation before construction"
+      ]
+    ]
+  },
+  "ro/floor-plan-to-3d": {
+    "title": "Cum să transformi un plan 2D într-o vizualizare 3D utilă",
+    "description": "Pregătește un plan lizibil, alege perspectiva și verifică încăperile, ușile și proporțiile înainte să distribui imaginea generată cu AI.",
+    "answer": "Încarcă un plan 2D clar în AI Home Planner & Room Design, alege o perspectivă și generează un concept vizual. Compară rezultatul cu planul original. O imagine atrăgătoare nu este un model CAD măsurat.",
+    "steps": [
+      [
+        "Pregătește planul complet",
+        "Folosește o scanare, o captură sau o fotografie cu pereți, uși și etichete lizibile. Îndreaptă imaginea și păstrează întregul contur. Nu elimina dimensiunile, scara sau intrările importante."
+      ],
+      [
+        "Alege perspectiva potrivită",
+        "Vederea de sus ajută la compararea distribuției camerelor. O perspectivă oblică sau izometrică evidențiază volumul și mobilierul. Începe cu un stil neutru, pentru a verifica mai întâi structura."
+      ],
+      [
+        "Compară rezultatul cu sursa",
+        "Numără camerele, identifică ușile și ferestrele și compară proporțiile. Verifică traseele de circulație și scările. Respinge o variantă care schimbă un element structural, chiar dacă arată bine."
+      ],
+      [
+        "Exportă un concept identificat clar",
+        "Compară variantele și exportă imaginea care respectă cel mai bine planul. Distribuie și sursa, menționând că rezultatul este o vizualizare generată cu AI."
+      ]
+    ],
+    "example_title": "Exemplu: un apartament cu două dormitoare",
+    "example": "Înainte să alegi finisajele, verifică poziția ambelor dormitoare, legătura băii cu holul și limitele bucătăriei. Abia apoi compară mobilierul și culorile.",
+    "limits": "AI poate interpreta greșit sursa. Verifică separat dimensiunile: imaginea exportată nu este un plan de execuție, un fișier BIM editabil sau un aviz tehnic. Consultă condițiile actuale de abonament din App Store.",
+    "related": [
+      "ai-room-design",
+      "virtual-home-staging",
+      "renovation-visualizer"
+    ],
+    "labels": {
+      "home": "Acasă",
+      "guides": "Ghiduri practice",
+      "answer": "Pe scurt",
+      "steps": "Pas cu pas",
+      "limits": "Limitele acestei metode",
+      "related": "Ghiduri conexe",
+      "all": "Vezi toate ghidurile",
+      "download": "Descarcă din App Store",
+      "cta": "Încearcă în aplicație",
+      "caption": "Captură din pagina aplicației din App Store; interfața poate varia în funcție de limbă și versiune."
+    },
+    "updated": "2026-09-17",
+    "image": "/seo-assets/en/screenshot-3.jpg",
+    "image_alt": "Opțiuni de stil interior în AI Home Planner",
+    "image_caption": "Captură din pagina aplicației din App Store; interfața poate varia în funcție de limbă și versiune.",
+    "related_titles": [
+      [
+        "ai-room-design",
+        "Cum să reamenajezi o cameră cu AI respectând limitele reale"
+      ],
+      [
+        "virtual-home-staging",
+        "Cum să mobilezi virtual o cameră goală"
+      ],
+      [
+        "renovation-visualizer",
+        "Cum să vizualizezi o renovare înainte de lucrări"
+      ]
+    ]
+  },
+  "es/floor-plan-to-3d": {
+    "title": "Cómo convertir un plano 2D en una visualización 3D útil",
+    "description": "Prepara un plano legible, elige una vista y comprueba habitaciones, puertas y proporciones antes de compartir una visualización generada con IA.",
+    "answer": "Carga un plano 2D claro en AI Home Planner & Room Design, elige una vista y genera un concepto visual. Contrasta el resultado con el plano original antes de usarlo en una presentación. Una imagen atractiva no equivale a un modelo CAD medido.",
+    "steps": [
+      [
+        "Prepara el plano completo",
+        "Usa un escaneo, captura o foto con paredes, puertas y etiquetas legibles. Endereza la imagen y conserva el contorno completo. No recortes dimensiones, escala ni entradas importantes."
+      ],
+      [
+        "Elige una vista según la pregunta",
+        "La vista superior facilita comparar la distribución. Una vista inclinada o isométrica ayuda a comunicar volumen y mobiliario. Empieza con un estilo neutro para comprobar primero la estructura."
+      ],
+      [
+        "Contrasta el resultado con la fuente",
+        "Cuenta las habitaciones, localiza puertas y ventanas y compara proporciones entre espacios. Revisa circulaciones y escaleras. Descarta una variante que cambie un elemento estructural o disimule una inconsistencia."
+      ],
+      [
+        "Exporta un concepto identificado como tal",
+        "Compara variantes y exporta la que mejor refleje el plano. Comparte también el original y aclara que la imagen es una visualización generada con IA."
+      ]
+    ],
+    "example_title": "Ejemplo: un apartamento de dos habitaciones",
+    "example": "Antes de elegir acabados, confirma que ambos dormitorios mantengan su posición, el baño conecte con el pasillo correcto y la cocina no absorba parte de otra estancia. Después compara muebles y colores.",
+    "limits": "La IA puede interpretar mal una fuente. Verifica las medidas por separado: una imagen exportada no es un plano constructivo, un archivo BIM editable ni una aprobación de ingeniería. Consulta los requisitos de suscripción actuales en App Store.",
+    "related": [
+      "ai-room-design",
+      "virtual-home-staging",
+      "renovation-visualizer"
+    ],
+    "labels": {
+      "home": "Inicio",
+      "guides": "Guías prácticas",
+      "answer": "Respuesta breve",
+      "steps": "Paso a paso",
+      "limits": "Límites de este método",
+      "related": "Guías relacionadas",
+      "all": "Ver todas las guías",
+      "download": "Descargar en App Store",
+      "cta": "Pruébalo en la app",
+      "caption": "Captura de la ficha de App Store; el texto de la interfaz puede variar según el idioma y la versión."
+    },
+    "updated": "2026-09-17",
+    "image": "/seo-assets/en/screenshot-3.jpg",
+    "image_alt": "Opciones de estilos de interior en AI Home Planner",
+    "image_caption": "Captura de la ficha de App Store; el texto de la interfaz puede variar según el idioma y la versión.",
+    "related_titles": [
+      [
+        "ai-room-design",
+        "Cómo rediseñar una habitación con IA respetando sus límites reales"
+      ],
+      [
+        "virtual-home-staging",
+        "Cómo montar virtualmente una habitación vacía"
+      ],
+      [
+        "renovation-visualizer",
+        "Cómo visualizar una renovación antes de la construcción"
+      ]
+    ]
+  },
+  "en/ai-room-design": {
+    "title": "How to redesign a room with AI while keeping real constraints",
+    "description": "Use a room photo to compare styles, preserve fixed features and check furniture scale before buying materials or changing a layout.",
+    "answer": "Start with a clear room photo and a list of features that must stay. Generate one design direction at a time, then compare the result against the real room. Use AI images to explore choices, and measurements to decide what will fit.",
+    "steps": [
+      [
+        "Photograph the whole room clearly",
+        "Use even lighting and a viewpoint that shows the floor, the main walls, windows and entrances. Remove temporary clutter where practical. Keep a second photo or a simple sketch for areas outside the frame."
+      ],
+      [
+        "Define what can and cannot change",
+        "List fixed elements such as doors, radiators, windows and built-in storage. Choose the goal: a lighter style, a different furniture arrangement or new finishes. Measure the room and the furniture separately."
+      ],
+      [
+        "Compare one design direction at a time",
+        "Upload the photo in AI Home Planner & Room Design and try an interior style. Compare variations with the original. Changing fewer things makes it easier to identify whether the improvement comes from furniture, lighting or color."
+      ],
+      [
+        "Turn the concept into a practical checklist",
+        "Check clear walking paths, door openings and access to storage. Record the elements you want to try, then compare real dimensions, material samples and availability before buying."
+      ]
+    ],
+    "example_title": "Example: a small living room",
+    "example": "If a generated sofa looks better but blocks the balcony door, reject that layout. Keep the useful color idea and try a smaller sofa in the next concept. A visually spacious render can still contain furniture that will not fit.",
+    "limits": "The app creates visual concepts. A room photo does not establish exact dimensions, structural feasibility, electrical routes or material quantities. Keep the original photograph available when reviewing AI changes.",
+    "related": [
+      "floor-plan-to-3d",
+      "virtual-home-staging",
+      "renovation-visualizer"
+    ],
+    "labels": {
+      "home": "Home",
+      "guides": "Practical guides",
+      "answer": "The short answer",
+      "steps": "Step by step",
+      "limits": "What this method does not establish",
+      "related": "Related guides",
+      "all": "Browse all guides",
+      "download": "Download on the App Store",
+      "cta": "Try it in the app",
+      "caption": "Product screenshot from the App Store listing; interface text may differ by language and version."
+    },
+    "updated": "2026-09-17",
+    "image": "/seo-assets/en/screenshot-3.jpg",
+    "image_alt": "AI Home Planner showing interior style options",
+    "image_caption": "Product screenshot from the App Store listing; interface text may differ by language and version.",
+    "related_titles": [
+      [
+        "floor-plan-to-3d",
+        "How to turn a 2D floor plan into a useful 3D visualization"
+      ],
+      [
+        "virtual-home-staging",
+        "How to virtually stage an empty room"
+      ],
+      [
+        "renovation-visualizer",
+        "How to visualize a renovation before construction"
+      ]
+    ]
+  },
+  "ro/ai-room-design": {
+    "title": "Cum să reamenajezi o cameră cu AI respectând limitele reale",
+    "description": "Compară stiluri pornind de la o fotografie, păstrează elementele fixe și verifică dimensiunile înainte să cumperi mobilier sau materiale.",
+    "answer": "Pornește de la o fotografie clară și o listă cu elementele care trebuie păstrate. Explorează câte o direcție de design și compară rezultatul cu încăperea reală. Imaginile ajută la alegerea ideilor; măsurătorile arată ce încape.",
+    "steps": [
+      [
+        "Fotografiază clar încăperea",
+        "Folosește lumină uniformă și un cadru care include podeaua, pereții, ferestrele și intrările. Îndepărtează obiectele temporare. Păstrează o a doua fotografie sau o schiță pentru zonele care nu se văd."
+      ],
+      [
+        "Stabilește ce poate fi schimbat",
+        "Notează ușile, caloriferele, ferestrele și mobilierul încorporat care rămân. Alege obiectivul: alt stil, altă dispunere sau alte finisaje. Măsoară separat camera și mobilierul."
+      ],
+      [
+        "Compară câte o direcție de amenajare",
+        "Încarcă fotografia în AI Home Planner & Room Design și încearcă un stil. Compară variantele cu originalul. Schimbările puține te ajută să vezi dacă îmbunătățirea vine din culoare, mobilier sau lumină."
+      ],
+      [
+        "Transformă conceptul într-o listă practică",
+        "Verifică spațiile de trecere, deschiderea ușilor și accesul la depozitare. Notează ce vrei să testezi și compară dimensiuni, mostre și disponibilitate înainte de cumpărare."
+      ]
+    ],
+    "example_title": "Exemplu: un living mic",
+    "example": "Dacă o canapea generată blochează ușa balconului, respinge acea dispunere. Păstrează ideea de culoare și încearcă o canapea mai mică. O imagine aerisită poate conține mobilier care nu încape în realitate.",
+    "limits": "Aplicația creează concepte vizuale. Fotografia nu stabilește dimensiuni exacte, fezabilitate structurală, trasee electrice sau cantități de materiale. Păstrează originalul pentru a verifica schimbările AI.",
+    "related": [
+      "floor-plan-to-3d",
+      "virtual-home-staging",
+      "renovation-visualizer"
+    ],
+    "labels": {
+      "home": "Acasă",
+      "guides": "Ghiduri practice",
+      "answer": "Pe scurt",
+      "steps": "Pas cu pas",
+      "limits": "Limitele acestei metode",
+      "related": "Ghiduri conexe",
+      "all": "Vezi toate ghidurile",
+      "download": "Descarcă din App Store",
+      "cta": "Încearcă în aplicație",
+      "caption": "Captură din pagina aplicației din App Store; interfața poate varia în funcție de limbă și versiune."
+    },
+    "updated": "2026-09-17",
+    "image": "/seo-assets/en/screenshot-3.jpg",
+    "image_alt": "Opțiuni de stil interior în AI Home Planner",
+    "image_caption": "Captură din pagina aplicației din App Store; interfața poate varia în funcție de limbă și versiune.",
+    "related_titles": [
+      [
+        "floor-plan-to-3d",
+        "Cum să transformi un plan 2D într-o vizualizare 3D utilă"
+      ],
+      [
+        "virtual-home-staging",
+        "Cum să mobilezi virtual o cameră goală"
+      ],
+      [
+        "renovation-visualizer",
+        "Cum să vizualizezi o renovare înainte de lucrări"
+      ]
+    ]
+  },
+  "es/ai-room-design": {
+    "title": "Cómo rediseñar una habitación con IA respetando sus límites reales",
+    "description": "Compara estilos a partir de una foto, conserva los elementos fijos y verifica las medidas antes de comprar muebles o materiales.",
+    "answer": "Empieza con una foto clara y una lista de lo que debe permanecer. Genera una dirección de diseño por vez y compárala con la habitación real. Usa las imágenes para explorar ideas y las medidas para decidir qué cabe.",
+    "steps": [
+      [
+        "Fotografía bien la habitación",
+        "Busca luz uniforme y un encuadre que muestre suelo, paredes, ventanas y entradas. Retira el desorden temporal. Conserva otra foto o un croquis de las zonas que quedan fuera de la imagen."
+      ],
+      [
+        "Define qué se puede cambiar",
+        "Anota puertas, radiadores, ventanas y muebles empotrados que deben conservarse. Decide si buscas otro estilo, distribución o acabado. Mide por separado la habitación y los muebles."
+      ],
+      [
+        "Compara una dirección por vez",
+        "Carga la foto en AI Home Planner & Room Design y prueba un estilo. Contrasta cada variante con el original. Cambiar pocas cosas ayuda a identificar si la mejora proviene del color, los muebles o la iluminación."
+      ],
+      [
+        "Convierte la idea en una lista práctica",
+        "Comprueba pasos libres, apertura de puertas y acceso al almacenamiento. Anota qué quieres probar y contrasta medidas, muestras y disponibilidad antes de comprar."
+      ]
+    ],
+    "example_title": "Ejemplo: una sala pequeña",
+    "example": "Si el sofá generado bloquea la puerta del balcón, descarta esa distribución. Conserva la idea de color y prueba otro sofá en el siguiente concepto. Una imagen espaciosa puede contener muebles que no caben.",
+    "limits": "La app crea conceptos visuales. Una foto no establece medidas exactas, viabilidad estructural, instalaciones eléctricas ni cantidades de materiales. Mantén el original a mano para revisar los cambios de la IA.",
+    "related": [
+      "floor-plan-to-3d",
+      "virtual-home-staging",
+      "renovation-visualizer"
+    ],
+    "labels": {
+      "home": "Inicio",
+      "guides": "Guías prácticas",
+      "answer": "Respuesta breve",
+      "steps": "Paso a paso",
+      "limits": "Límites de este método",
+      "related": "Guías relacionadas",
+      "all": "Ver todas las guías",
+      "download": "Descargar en App Store",
+      "cta": "Pruébalo en la app",
+      "caption": "Captura de la ficha de App Store; el texto de la interfaz puede variar según el idioma y la versión."
+    },
+    "updated": "2026-09-17",
+    "image": "/seo-assets/en/screenshot-3.jpg",
+    "image_alt": "Opciones de estilos de interior en AI Home Planner",
+    "image_caption": "Captura de la ficha de App Store; el texto de la interfaz puede variar según el idioma y la versión.",
+    "related_titles": [
+      [
+        "floor-plan-to-3d",
+        "Cómo convertir un plano 2D en una visualización 3D útil"
+      ],
+      [
+        "virtual-home-staging",
+        "Cómo montar virtualmente una habitación vacía"
+      ],
+      [
+        "renovation-visualizer",
+        "Cómo visualizar una renovación antes de la construcción"
+      ]
+    ]
+  }
+}
