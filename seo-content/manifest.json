@@ -57,7 +57,7 @@
     "path": "ro/guides/exterior-home-design/index.html",
     "lang": "ro",
     "canonical": "https://www.floorplanto3dapp.com/ro/guides/exterior-home-design/",
-    "reviewedGuide": false
+    "reviewedGuide": true
   },
   {
     "path": "ro/guides/floor-plan-to-3d/index.html",
@@ -69,7 +69,7 @@
     "path": "ro/guides/garden-design-ai/index.html",
     "lang": "ro",
     "canonical": "https://www.floorplanto3dapp.com/ro/guides/garden-design-ai/",
-    "reviewedGuide": false
+    "reviewedGuide": true
   },
   {
     "path": "ro/guides/index.html",
@@ -81,18 +81,354 @@
     "path": "ro/guides/renovation-visualizer/index.html",
     "lang": "ro",
     "canonical": "https://www.floorplanto3dapp.com/ro/guides/renovation-visualizer/",
-    "reviewedGuide": false
+    "reviewedGuide": true
   },
   {
     "path": "ro/guides/virtual-home-staging/index.html",
     "lang": "ro",
     "canonical": "https://www.floorplanto3dapp.com/ro/guides/virtual-home-staging/",
-    "reviewedGuide": false
+    "reviewedGuide": true
   },
   {
     "path": "ro/index.html",
     "lang": "ro",
     "canonical": "https://www.floorplanto3dapp.com/ro/",
     "reviewedGuide": false
+  },
+  {
+    "path": "nl/guides/floor-plan-to-3d/index.html",
+    "lang": "nl",
+    "canonical": "https://www.floorplanto3dapp.com/nl/guides/floor-plan-to-3d/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "nl/guides/ai-room-design/index.html",
+    "lang": "nl",
+    "canonical": "https://www.floorplanto3dapp.com/nl/guides/ai-room-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "nl/guides/virtual-home-staging/index.html",
+    "lang": "nl",
+    "canonical": "https://www.floorplanto3dapp.com/nl/guides/virtual-home-staging/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "nl/guides/exterior-home-design/index.html",
+    "lang": "nl",
+    "canonical": "https://www.floorplanto3dapp.com/nl/guides/exterior-home-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "nl/guides/garden-design-ai/index.html",
+    "lang": "nl",
+    "canonical": "https://www.floorplanto3dapp.com/nl/guides/garden-design-ai/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "nl/guides/renovation-visualizer/index.html",
+    "lang": "nl",
+    "canonical": "https://www.floorplanto3dapp.com/nl/guides/renovation-visualizer/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "de/guides/floor-plan-to-3d/index.html",
+    "lang": "de",
+    "canonical": "https://www.floorplanto3dapp.com/de/guides/floor-plan-to-3d/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "de/guides/ai-room-design/index.html",
+    "lang": "de",
+    "canonical": "https://www.floorplanto3dapp.com/de/guides/ai-room-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "de/guides/virtual-home-staging/index.html",
+    "lang": "de",
+    "canonical": "https://www.floorplanto3dapp.com/de/guides/virtual-home-staging/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "de/guides/exterior-home-design/index.html",
+    "lang": "de",
+    "canonical": "https://www.floorplanto3dapp.com/de/guides/exterior-home-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "de/guides/garden-design-ai/index.html",
+    "lang": "de",
+    "canonical": "https://www.floorplanto3dapp.com/de/guides/garden-design-ai/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "de/guides/renovation-visualizer/index.html",
+    "lang": "de",
+    "canonical": "https://www.floorplanto3dapp.com/de/guides/renovation-visualizer/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "pl/guides/floor-plan-to-3d/index.html",
+    "lang": "pl",
+    "canonical": "https://www.floorplanto3dapp.com/pl/guides/floor-plan-to-3d/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "pl/guides/ai-room-design/index.html",
+    "lang": "pl",
+    "canonical": "https://www.floorplanto3dapp.com/pl/guides/ai-room-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "pl/guides/virtual-home-staging/index.html",
+    "lang": "pl",
+    "canonical": "https://www.floorplanto3dapp.com/pl/guides/virtual-home-staging/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "pl/guides/exterior-home-design/index.html",
+    "lang": "pl",
+    "canonical": "https://www.floorplanto3dapp.com/pl/guides/exterior-home-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "pl/guides/garden-design-ai/index.html",
+    "lang": "pl",
+    "canonical": "https://www.floorplanto3dapp.com/pl/guides/garden-design-ai/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "pl/guides/renovation-visualizer/index.html",
+    "lang": "pl",
+    "canonical": "https://www.floorplanto3dapp.com/pl/guides/renovation-visualizer/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "pt/guides/floor-plan-to-3d/index.html",
+    "lang": "pt",
+    "canonical": "https://www.floorplanto3dapp.com/pt/guides/floor-plan-to-3d/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "pt/guides/ai-room-design/index.html",
+    "lang": "pt",
+    "canonical": "https://www.floorplanto3dapp.com/pt/guides/ai-room-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "pt/guides/virtual-home-staging/index.html",
+    "lang": "pt",
+    "canonical": "https://www.floorplanto3dapp.com/pt/guides/virtual-home-staging/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "pt/guides/exterior-home-design/index.html",
+    "lang": "pt",
+    "canonical": "https://www.floorplanto3dapp.com/pt/guides/exterior-home-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "pt/guides/garden-design-ai/index.html",
+    "lang": "pt",
+    "canonical": "https://www.floorplanto3dapp.com/pt/guides/garden-design-ai/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "pt/guides/renovation-visualizer/index.html",
+    "lang": "pt",
+    "canonical": "https://www.floorplanto3dapp.com/pt/guides/renovation-visualizer/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "guides/virtual-home-staging/index.html",
+    "lang": "en",
+    "canonical": "https://www.floorplanto3dapp.com/guides/virtual-home-staging/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "guides/exterior-home-design/index.html",
+    "lang": "en",
+    "canonical": "https://www.floorplanto3dapp.com/guides/exterior-home-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "guides/garden-design-ai/index.html",
+    "lang": "en",
+    "canonical": "https://www.floorplanto3dapp.com/guides/garden-design-ai/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "guides/renovation-visualizer/index.html",
+    "lang": "en",
+    "canonical": "https://www.floorplanto3dapp.com/guides/renovation-visualizer/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "it/guides/floor-plan-to-3d/index.html",
+    "lang": "it",
+    "canonical": "https://www.floorplanto3dapp.com/it/guides/floor-plan-to-3d/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "it/guides/ai-room-design/index.html",
+    "lang": "it",
+    "canonical": "https://www.floorplanto3dapp.com/it/guides/ai-room-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "it/guides/virtual-home-staging/index.html",
+    "lang": "it",
+    "canonical": "https://www.floorplanto3dapp.com/it/guides/virtual-home-staging/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "it/guides/exterior-home-design/index.html",
+    "lang": "it",
+    "canonical": "https://www.floorplanto3dapp.com/it/guides/exterior-home-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "it/guides/garden-design-ai/index.html",
+    "lang": "it",
+    "canonical": "https://www.floorplanto3dapp.com/it/guides/garden-design-ai/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "it/guides/renovation-visualizer/index.html",
+    "lang": "it",
+    "canonical": "https://www.floorplanto3dapp.com/it/guides/renovation-visualizer/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "fr/guides/floor-plan-to-3d/index.html",
+    "lang": "fr",
+    "canonical": "https://www.floorplanto3dapp.com/fr/guides/floor-plan-to-3d/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "fr/guides/ai-room-design/index.html",
+    "lang": "fr",
+    "canonical": "https://www.floorplanto3dapp.com/fr/guides/ai-room-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "fr/guides/virtual-home-staging/index.html",
+    "lang": "fr",
+    "canonical": "https://www.floorplanto3dapp.com/fr/guides/virtual-home-staging/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "fr/guides/exterior-home-design/index.html",
+    "lang": "fr",
+    "canonical": "https://www.floorplanto3dapp.com/fr/guides/exterior-home-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "fr/guides/garden-design-ai/index.html",
+    "lang": "fr",
+    "canonical": "https://www.floorplanto3dapp.com/fr/guides/garden-design-ai/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "fr/guides/renovation-visualizer/index.html",
+    "lang": "fr",
+    "canonical": "https://www.floorplanto3dapp.com/fr/guides/renovation-visualizer/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "sv/guides/floor-plan-to-3d/index.html",
+    "lang": "sv",
+    "canonical": "https://www.floorplanto3dapp.com/sv/guides/floor-plan-to-3d/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "sv/guides/ai-room-design/index.html",
+    "lang": "sv",
+    "canonical": "https://www.floorplanto3dapp.com/sv/guides/ai-room-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "sv/guides/virtual-home-staging/index.html",
+    "lang": "sv",
+    "canonical": "https://www.floorplanto3dapp.com/sv/guides/virtual-home-staging/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "sv/guides/exterior-home-design/index.html",
+    "lang": "sv",
+    "canonical": "https://www.floorplanto3dapp.com/sv/guides/exterior-home-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "sv/guides/garden-design-ai/index.html",
+    "lang": "sv",
+    "canonical": "https://www.floorplanto3dapp.com/sv/guides/garden-design-ai/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "sv/guides/renovation-visualizer/index.html",
+    "lang": "sv",
+    "canonical": "https://www.floorplanto3dapp.com/sv/guides/renovation-visualizer/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "es/guides/virtual-home-staging/index.html",
+    "lang": "es",
+    "canonical": "https://www.floorplanto3dapp.com/es/guides/virtual-home-staging/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "es/guides/exterior-home-design/index.html",
+    "lang": "es",
+    "canonical": "https://www.floorplanto3dapp.com/es/guides/exterior-home-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "es/guides/garden-design-ai/index.html",
+    "lang": "es",
+    "canonical": "https://www.floorplanto3dapp.com/es/guides/garden-design-ai/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "es/guides/renovation-visualizer/index.html",
+    "lang": "es",
+    "canonical": "https://www.floorplanto3dapp.com/es/guides/renovation-visualizer/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "ar/guides/floor-plan-to-3d/index.html",
+    "lang": "ar",
+    "canonical": "https://www.floorplanto3dapp.com/ar/guides/floor-plan-to-3d/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "ar/guides/ai-room-design/index.html",
+    "lang": "ar",
+    "canonical": "https://www.floorplanto3dapp.com/ar/guides/ai-room-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "ar/guides/virtual-home-staging/index.html",
+    "lang": "ar",
+    "canonical": "https://www.floorplanto3dapp.com/ar/guides/virtual-home-staging/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "ar/guides/exterior-home-design/index.html",
+    "lang": "ar",
+    "canonical": "https://www.floorplanto3dapp.com/ar/guides/exterior-home-design/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "ar/guides/garden-design-ai/index.html",
+    "lang": "ar",
+    "canonical": "https://www.floorplanto3dapp.com/ar/guides/garden-design-ai/",
+    "reviewedGuide": true
+  },
+  {
+    "path": "ar/guides/renovation-visualizer/index.html",
+    "lang": "ar",
+    "canonical": "https://www.floorplanto3dapp.com/ar/guides/renovation-visualizer/",
+    "reviewedGuide": true
   }
 ]

@@ -40,6 +40,6 @@
       "permanent": false
     }
   ],
-  "buildCommand": "node scripts/check-static-images.mjs && node scripts/check-seo-content.mjs",
+  "buildCommand": "node scripts/render-reviewed-guides.mjs && node scripts/check-static-images.mjs && node scripts/check-seo-content.mjs",
   "outputDirectory": "."
 }
